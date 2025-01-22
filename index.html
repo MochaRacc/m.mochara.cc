@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#7f679b">
+      <!-- Favicon -->
+      <link rel="icon" href="/faviconpurple.png" type="image/x-icon" />
+      <!-- meta:og -->
+      <meta name="theme-color" content="#7f679b">
+      <meta property="og:title" content="Mocha The Raccoon">
+      <meta property="og:url" content="/">
+      <meta property="og:description" content="">
+      <meta property="og:image" content="/faviconpurple.png">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Domine">
+  <link href="style.css" rel="stylesheet">
+  <link href="/font/Recoleta.css" rel="stylesheet">
+  <title>Mocha The Raccoon</title>
+</head>
+
+<body data-sveltekit-preload-data="hover">
+  <div style="display: contents">
+    <div id="container"><span id="logo" title="Mocha The Raccoon" data-hover=""></span>
+      <div id="topText">
+        now playing: euro truck sim 2
+      </div>
+  
+      <script>
+        // Array of random texts
+        const randomTexts = [
+            "now playing: euro truck sim 2",
+            "tell them to bring out the whole ocean",
+            "burschurger",
+            <!-- MUNNEL STUFF :) -->
+            "they're building a munnel under melbourne",
+            "他们正在墨尔本地下建造一条 Munnel",
+            "apparently comeng in munnel cant fit blah blah blah",
+            "lets get freaky on the hcmt at arden",
+            <!-- MUNNEL STUFF :) -->
+            "tell my tax man that i did NOT buy thigh highs",
+            "im a sized mclaren mcl38 if anyone is curious",
+            "collingwood supporters dni",
+            "now playing: #41 by dave matthews band",
+            ":3",
+            "dr pepper and a raccoon goes well",
+            "buy angy paws (not sponsored)",
+            "working on racc attacc products",
+            "GET OUT OF MY ROOM IM PLAYING MINECRAFT !!!",
+            "IMG_3452.jpg",
+            "🦝🛹",
+            "i'll have two number 9's, a number 9 large, a number 7, two number 45's, one with cheese, and a large soda.",
+            "if you see this, you're cute!",
+            "ehrm what the racc",
+            "could i have be, a parking lot attendant",
+            "oskar if you see this, say hi with a screenshot of this",
+            "remember, if you can't type in the current url for this site, use mochara.cc :)",
+        ];
+  
+        // Select the element
+        const topTextElement = document.getElementById('topText');
+  
+        // Pick a random text
+        const randomIndex = Math.floor(Math.random() * randomTexts.length);
+        topTextElement.textContent = randomTexts[randomIndex];
+    </script>
+  
+      <div id="links">
+        <a data-hover="" rel="me" href="https://youtube.com/@MochaRacc">youtube</a>
+        <a data-hover="" rel="me" href="https://bsky.app/profile/mochara.cc">bluesky</a>
+        <a data-hover="" rel="me" href="https://twitter.com/MochaRacc_">twitter</a>
+        <a data-hover="" rel="me" href="https://instagram.com/MochaRacc">instagram</a>
+        <a data-hover="" rel="me" href="https://www.tiktok.com/@mocharacc">tiktok</a>
+        <a data-hover="" rel="me" href="https://ko-fi.com/MochaTheRaccoon">ko-fi</a>
+        <a data-hover="" rel="me" href="https://t.me/MochaRacc">telegram</a>
+        <a data-hover="" rel="me" href="https://www.furtrack.com/index/character:mocha_(raccoon)">furtrack</a>
+        <a data-hover="" rel="me" href="mailto:hello@mochara.cc">send me an e-mail</a>
+      </div>
+    </div>
+    <div id="svelte-announcer" aria-live="assertive" aria-atomic="true"
+      style="position: absolute; left: 0px; top: 0px; clip: rect(0px, 0px, 0px, 0px); clip-path: inset(50%); overflow: hidden; white-space: nowrap; width: 1px; height: 1px;">
+    </div>
+  </div>
+
+  <div id="mochuhh">
+    <img src="mocha.png" title="ooooo a floating racc">
+  </div>
+
+  <canvas width="1920" height="918" style="touch-action: none; cursor: inherit;"></canvas>
+</body>
+
+</html>
