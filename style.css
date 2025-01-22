@@ -17,6 +17,32 @@ canvas {
     z-index: -1
 }
 
+#container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90%; /* Adjust for smaller screens */
+    width: 100%; /* Ensures responsiveness */
+    box-sizing: border-box; /* Includes padding and border in width calculation */
+}
+
+@media (max-width: 768px) {
+    #container {
+        max-width: 95%;
+        font-size: 0.9em; /* Adjust font size for better readability */
+    }
+}
+
+@media (max-width: 480px) {
+    #container {
+        max-width: 100%;
+        padding: 10px; /* Add padding for better spacing */
+    }
+}
+
+
+
 #logo {
     background-image: url(logo.svg);
     background-repeat: no-repeat;
