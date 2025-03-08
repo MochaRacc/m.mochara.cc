@@ -7,7 +7,6 @@ body {
     background: #ff0054;
     font-family: 'Satoshi', sans-serif;
     font-size: 24pt;
-    font-weight: bold;
     line-height: 1.1;
 }
 
@@ -55,7 +54,6 @@ canvas {
 }
 
 #topText {
-    font-weight: bold;
     font-size: 1rem;
     line-height: 1.25;
     display: block;
