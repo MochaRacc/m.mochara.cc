@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Satoshi';
+    src: url('Satoshi-Medium.woff2') format('woff2'),
+        url('Satoshi-Medium.woff') format('woff'),
+        url('Satoshi-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MBA Slice Mono';
+    src: url('MBASliceMono.woff2') format('woff2'),
+        url('MBASliceMono.woff') format('woff'),
+        url('MBASliceMono.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
