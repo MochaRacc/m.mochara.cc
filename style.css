@@ -5,7 +5,7 @@
 
 body {
     background: #ff0054;
-    font-family: 'Satoshi', sans-serif;
+    font-family: 'EquitanSans', sans-serif;
     font-size: 24pt;
     line-height: 1.1;
 }
@@ -64,7 +64,7 @@ canvas {
 }
 
 #links>a {
-    font-family: 'MBA Slice Mono', sans-serif;
+    font-family: 'Grenette Pro', sans-serif;
     color: #fff;
     display: table;
     font-weight: 500;
